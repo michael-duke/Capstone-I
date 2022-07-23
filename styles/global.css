@@ -25,3 +25,28 @@ html {
   font-family: var(--ff-lato);
   transition-duration: 0.25s;
 }
+
+.primary-btn {
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.04em;
+  width: auto;
+  margin: 0 auto;
+  padding: 1.5rem 2.5rem;
+  border: 0.0625rem solid var(--color-red);
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+.primary-btn:hover {
+  color: var(--color-red);
+  background: var(--color-white);
+  box-shadow: 0 0.5rem 1rem rgb(64 83 252 / 24%);
+}
