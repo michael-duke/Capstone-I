@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+@import "http://fonts.cdnfonts.com/css/cocogoose";
 
 :root {
-  --ff-cocogoose: 'COCOGOOSE', sans-serif;
-  --ff-lato: 'Lato', sans-serif;
+  --ff-cocogoose: "COCOGOOSE", sans-serif;
+  --ff-lato: "Lato", sans-serif;
   --color-black: #272a31;
   --color-red: #ec5242;
   --color-lightgrey: #d3d3d3;
@@ -11,6 +11,7 @@
   --color-whitesmoke: #f7f7f7;
   --color-white: #fff;
 }
+
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -34,7 +35,7 @@ html {
   font-size: 1.0625rem;
   line-height: 1.5rem;
   letter-spacing: 0.04em;
-  width: auto;
+  width: max-content;
   margin: 0 auto;
   padding: 1.5rem 2.5rem;
   border: 0.0625rem solid var(--color-red);
@@ -48,5 +49,4 @@ html {
 .primary-btn:hover {
   color: var(--color-red);
   background: var(--color-white);
-  box-shadow: 0 0.5rem 1rem rgb(64 83 252 / 24%);
 }
