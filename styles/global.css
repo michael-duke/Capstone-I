@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+:root {
+  --ff-cocogoose: 'COCOGOOSE', sans-serif;
+  --ff-lato: 'Lato', sans-serif;
+  --color-black: #272a31;
+  --color-red: #ec5242;
+  --color-lightgrey: #d3d3d3;
+  --color-darkgrey: #5e5e5e;
+  --color-whitesmoke: #f7f7f7;
+  --color-white: #fff;
+}
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: var(--ff-lato);
+  transition-duration: 0.25s;
+}

@@ -1,0 +1,112 @@
+@import './global.css';
+
+/* Toolbar Section */
+
+.toolbar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+}
+.menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.menu-btn_burger {
+  width: 35px;
+  height: 4px;
+  background-color: var(--color-black);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: var(--color-black);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn_burger::before {
+  transform: translateY(-12px);
+}
+.menu-btn_burger::after {
+  transform: translateY(12px);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  background-image: url('../images//conference-background-2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding: 80px 0.9375rem;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--color-red);
+}
+
+.title {
+  font-family: var(--ff-cocogoose);
+  color: var(--color-red);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+
+.title:hover {
+  color: transparent;
+  background-image: url('../images/man-playing-djembe-african-music-vector.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
+.intro {
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: var(--color-black);
+  padding: 1rem;
+  opacity: 0.7;
+  border: 5px solid var(--color-whitesmoke);
+}
+
+.event-date {
+  font-family: var(--ff-cocogoose);
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  color: var(--color-black);
+  opacity: 0.8;
+}
+
+.event-location {
+  font-size: 1.1rem;
+  opacity: 0.5;
+  color: var(--color-black);
+}
