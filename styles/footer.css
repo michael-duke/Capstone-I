@@ -14,7 +14,6 @@ footer {
 .footnote {
   font-weight: 700;
   font-size: 0.7rem;
-  width: 35%;
   line-height: 1.5;
   color: var(--color-black);
   opacity: 0.8;
@@ -25,9 +24,7 @@ footer {
   display: block;
 }
 
-@media (min-width: 768px){
-
-
+@media (min-width: 768px) {
   .footer-logo img {
     width: 350px;
   }

@@ -69,7 +69,7 @@
   .sec-title {
     font-size: 1.9rem;
   }
-  
+
   .cards {
     grid-template-columns: repeat(auto-fit, 200px);
     column-gap: 1.125rem;
