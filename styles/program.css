@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   font-family: var(--ff-lato);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--color-lightgrey);
   text-transform: capitalize;
   text-align: center;
@@ -66,6 +66,10 @@
 }
 
 @media (min-width: 768px) {
+  .sec-title {
+    font-size: 1.9rem;
+  }
+  
   .cards {
     grid-template-columns: repeat(auto-fit, 200px);
     column-gap: 1.125rem;

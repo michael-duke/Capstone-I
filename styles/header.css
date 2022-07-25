@@ -151,7 +151,7 @@ header {
 }
 .intro {
   font-weight: 700;
-  line-height: 1.5rem;
+  line-height: 2.1rem;
   color: var(--color-black);
   padding: 1rem;
   opacity: 0.7;
@@ -202,9 +202,6 @@ header {
     box-shadow: 0 2px 10px var(--color-darkgrey);
   }
 
-  header {
-    padding-top: 9.375rem;
-  }
 
   header > * {
     max-width: 1000px;

@@ -2,7 +2,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3.125rem;
+  gap: 8%;
 }
 
 .footer-logo img {
@@ -26,6 +26,12 @@ footer {
 }
 
 @media (min-width: 768px){
+
+
+  .footer-logo img {
+    width: 350px;
+  }
+
   .footnote {
     font-size: 1.2rem;
   }
