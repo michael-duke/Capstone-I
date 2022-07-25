@@ -9,18 +9,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0.75rem;
+  padding: 0.75rem;
 }
 
 .menu-btn {
-  position: relative;
+  position: absolute;
+  z-index: 22;
   display: flex;
   flex-direction: column;
   gap: 8px;
   justify-content: center;
-  align-items: center;
   align-self: flex-start;
-  width: 40px;
+  background-color: transparent;
+  backdrop-filter: blur(1px);
+  width: 100%;
   height: 40px;
   transition: 0.5s ease-in-out;
   cursor: pointer;
@@ -35,6 +37,47 @@
   transition: all 0.5s ease-in-out;
 }
 
+.mobile-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 22;
+  flex-direction: column;
+  background-image: url('../images/conference-background-1.jpg');
+  height: 100vh;
+  width: 100%;
+  text-align: flex-start;
+  padding: 4rem;
+  transition: 0.5s;
+  filter: drop-shadow(20px);
+  opacity: 0.95;
+}
+
+.mobile-menu .nav-bar {
+ display: flex;
+ flex-direction: column;
+}
+
+.mobile-menu .nav-bar a:first-child {
+  display: flex;
+  align-items: flex-end;
+  opacity: unset;
+}
+
+.mobile-menu .nav-bar span {
+  color: var(--color-black);
+  padding: unset;
+  border: unset;
+}
+
+.mobile-menu .nav-bar a {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: var(--color-black);
+  opacity: .8;
+}
+
 .top-navigation {
   gap: 2rem;
   display: none;
@@ -47,6 +90,10 @@
 
 .top-navigation a {
   color: var(--color-white);
+}
+
+.top-navigation a:hover {
+  color: var(--color-red);
 }
 
 .top-navigation svg {
@@ -75,23 +122,23 @@
   object-fit: cover;
 }
 
-.bottom-navigation .nav-bar {
+.nav-bar {
   display: inline-flex;
   gap: 2rem;
 }
 
-.bottom-navigation .nav-bar a {
+.nav-bar a {
   color: var(--color-black);
 }
 
-.bottom-navigation span {
+.nav-bar span {
   border: 5px solid var(--color-red);
   padding: 10px;
   color: var(--color-red);
 }
 
 .active-link {
-  color: var(--color-red)!important;
+  color: var(--color-red) !important;
 }
 
 /* Header Section */
@@ -124,6 +171,7 @@ header {
   line-height: 3.25rem;
   width: max-content;
   height: max-content;
+  cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
 
