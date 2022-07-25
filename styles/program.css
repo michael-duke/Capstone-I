@@ -67,8 +67,9 @@
 
 @media (min-width: 768px) {
   .cards {
-    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(auto-fit, 200px);
     column-gap: 1.125rem;
+    justify-content: center;
   }
 
   .card {

@@ -27,6 +27,22 @@ html {
   transition-duration: 0.25s;
 }
 
+nav {
+  width: 100vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+}
+
 .primary-btn {
   display: block;
   text-transform: capitalize;
