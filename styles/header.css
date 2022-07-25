@@ -90,6 +90,10 @@
   color: var(--color-red);
 }
 
+.active-link {
+  color: var(--color-red)!important;
+}
+
 /* Header Section */
 
 header {
@@ -127,6 +131,7 @@ header {
   color: transparent;
   background-image: url('../images/man-playing-djembe-african-music-vector.webp');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
