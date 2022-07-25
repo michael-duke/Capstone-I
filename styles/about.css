@@ -198,6 +198,10 @@ section p {
     background-color: var(--color-black);
   }
 
+  .footer-logo img {
+    content: url("../images/amc-logo-dark-removebg.png");
+  }
+
   .footnote {
     color: var(--color-white);
   }

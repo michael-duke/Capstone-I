@@ -9,7 +9,10 @@ const toggleMenu = (e) => {
 
 const closeMenu = () => {
   const mobileMenu = document.querySelector('.mobile-menu');
-  mobileMenu.remove();
+  mobileMenu.classList.remove('active');
+  setTimeout(() => {
+    mobileMenu.remove();
+  }, 700);
   menuBtn.classList.remove('open');
   document.body.style.overflow = 'auto';
 };
@@ -34,7 +37,7 @@ function renderMobileMenu() {
   homeLi.appendChild(homeLink);
   navLinks.prepend(homeLi);
 
-  navLinks.querySelector('.accronym-link').style.display ='none';
+  navLinks.querySelector('.accronym-link').style.display = 'none';
 
   const links = navLinks.querySelectorAll('li');
   links.forEach((link) => {
@@ -50,8 +53,13 @@ function renderMobileMenu() {
       closeMenu();
     }
   });
-  mobileMenu.classList.toggle('active');
-  return modalOpen ? document.body.prepend(mobileMenu) : closeMenu();
+
+  if (modalOpen) {
+    document.body.prepend(mobileMenu);
+    setTimeout(() => {
+      mobileMenu.classList.add('active');
+    }, 100);
+  } else closeMenu();
 }
 
 export { renderMobileMenu, toggleMenu };

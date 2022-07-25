@@ -8,7 +8,7 @@ footer {
 .footer-logo img {
   object-fit: cover;
   object-position: center;
-  width: 200px;
+  width: 150px;
 }
 
 .footnote {
@@ -26,7 +26,7 @@ footer {
 
 @media (min-width: 768px) {
   .footer-logo img {
-    width: 350px;
+    width: 21.875rem;
   }
 
   .footnote {

@@ -21,8 +21,6 @@
   justify-content: center;
   align-self: flex-start;
   background-color: transparent;
-  backdrop-filter: blur(1px);
-  width: 100%;
   height: 40px;
   transition: 0.5s ease-in-out;
   cursor: pointer;
@@ -39,7 +37,7 @@
 
 .mobile-menu {
   position: fixed;
-  left: 0;
+  right: -200%;
   top: 0;
   z-index: 22;
   flex-direction: column;
@@ -48,9 +46,13 @@
   width: 100%;
   text-align: flex-start;
   padding: 4rem;
-  transition: 0.5s;
+  transition: .95s;
   filter: drop-shadow(20px);
   opacity: 0.95;
+}
+
+.mobile-menu.active {
+  right: 0;
 }
 
 .mobile-menu .nav-bar {
