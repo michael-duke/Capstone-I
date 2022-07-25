@@ -1,0 +1,9 @@
+.speakers-section {
+  border-top: 2px solid var(--color-white);
+  background-color: var(--color-white);
+  padding: 2rem 0;
+}
+
+.speakers-section .sec-title {
+  color: var(--color-black);
+}
