@@ -35,51 +35,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-.mobile-menu {
-  position: fixed;
-  right: -200%;
-  top: 0;
-  z-index: 22;
-  flex-direction: column;
-  background-image: url('../images/conference-background-1.jpg');
-  height: 100vh;
-  width: 100%;
-  text-align: flex-start;
-  padding: 4rem;
-  transition: .95s;
-  filter: drop-shadow(20px);
-  opacity: 0.95;
-}
-
-.mobile-menu.active {
-  right: 0;
-}
-
-.mobile-menu .nav-bar {
- display: flex;
- flex-direction: column;
-}
-
-.mobile-menu .nav-bar a:first-child {
-  display: flex;
-  align-items: flex-end;
-  opacity: unset;
-}
-
-.mobile-menu .nav-bar span {
-  color: var(--color-black);
-  padding: unset;
-  border: unset;
-}
-
-.mobile-menu .nav-bar a {
-  font-weight: 600;
-  font-size: 2rem;
-  line-height: 2.75rem;
-  color: var(--color-black);
-  opacity: .8;
-}
-
 .top-navigation {
   gap: 2rem;
   display: none;
@@ -92,6 +47,10 @@
 
 .top-navigation a {
   color: var(--color-white);
+}
+
+.nav-bar a {
+  color: var(--color-black);
 }
 
 .top-navigation a:hover {
@@ -129,10 +88,6 @@
   gap: 2rem;
 }
 
-.nav-bar a {
-  color: var(--color-black);
-}
-
 .nav-bar span {
   border: 5px solid var(--color-red);
   padding: 10px;
@@ -141,6 +96,53 @@
 
 .active-link {
   color: var(--color-red) !important;
+}
+
+/* Mobile Menu Section */
+
+.mobile-menu {
+  position: fixed;
+  right: -200%;
+  top: 0;
+  z-index: 22;
+  flex-direction: column;
+  background-image: url('../images/conference-background-1.jpg');
+  height: 100vh;
+  width: 100%;
+  text-align: flex-start;
+  padding: 4rem;
+  transition: 0.95s;
+  filter: drop-shadow(20px);
+  opacity: 0.95;
+}
+
+.mobile-menu.active {
+  right: 0;
+}
+
+.mobile-menu .nav-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu .nav-bar a {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: var(--color-black);
+  opacity: 0.8;
+}
+
+.mobile-menu .nav-bar a:first-child {
+  display: flex;
+  align-items: flex-end;
+  opacity: unset;
+}
+
+.mobile-menu .nav-bar span {
+  color: var(--color-black);
+  padding: unset;
+  border: unset;
 }
 
 /* Header Section */
@@ -187,7 +189,7 @@ header {
   -webkit-background-clip: text;
 }
 
-.title span {
+.title .sub {
   display: block;
   font-family: inherit;
 }

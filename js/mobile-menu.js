@@ -24,7 +24,7 @@ function renderMobileMenu() {
   mobileMenu.className = 'mobile-menu';
 
   const navLinks = document.querySelector('.nav-bar').cloneNode(true);
-  //Appending HomeLink
+  // Appending HomeLink
   const homeLi = document.createElement('li');
   const homeLink = document.createElement('a');
   homeLink.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="48px" height="48px">

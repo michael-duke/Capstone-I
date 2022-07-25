@@ -7,7 +7,7 @@ const navScrollSpy = () => {
       const sectionTop = section.offsetTop - 200;
       const sectionId = section.getAttribute('id');
       const navLink = document.querySelector(
-        `.nav-bar li a[href*=${sectionId}]`
+        `.nav-bar li a[href*=${sectionId}]`,
       );
 
       if (scrollPos > sectionTop && scrollPos <= sectionTop + sectionHeight) {
@@ -21,7 +21,7 @@ const navScrollSpy = () => {
       const headerTop = header.offsetTop - 200;
       const headerId = header.id;
       const navLink = document.querySelector(
-        `.nav-bar li a[href*=${headerId}]`
+        `.nav-bar li a[href*=${headerId}]`,
       );
 
       if (scrollPos > headerTop && scrollPos <= headerTop + headerHeight) {
