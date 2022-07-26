@@ -1,41 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# AFRICA MUSIC CONFERENCE 2022
+![amc logo](https://user-images.githubusercontent.com/84629565/181085402-9e66ad51-4b01-4161-abb2-76a80f30ff34.jpg)
 
-> Description the project.
+> This is an educational project to make a website for a music conference event with home page and about page.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3, JavaScript
+- Linters: 
+  - Stylelint
+  - Lighthouse
+  - Webhint
+  - ESLint
+## Website Mockup 📱 💻 🖥️
+![screenshot](https://user-images.githubusercontent.com/84629565/181092628-62d25799-72cd-47e0-b740-6605cfcd7252.jpg)
+![screenshot](https://user-images.githubusercontent.com/84629565/181093286-7a6d1418-893d-49aa-a809-9893881eb170.jpg)
+![screenshot](https://user-images.githubusercontent.com/84629565/181097758-807e3f12-1f94-40fe-a10a-a47d42f0d4a6.png)
+![screenshot](https://user-images.githubusercontent.com/84629565/181095396-791a2211-8f1f-4b24-a5ad-64864c0f5240.jpg)
+![screenshot](https://user-images.githubusercontent.com/84629565/181096722-c2355bc3-2714-44a9-8a28-aaa2bdbc492b.png)
+![screenshot](https://user-images.githubusercontent.com/84629565/181095048-6388d529-9aa6-4132-88c8-e649eec04d12.png)
+## Live Demo
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Capstone I : Africa Music Conference 2022](https://michael-duke.github.io/Capstone-I/)
 
 
 ## Authors
@@ -45,13 +33,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@michael-duke](https://github.com/michael-duke)
 - Twitter: [@MikeDuke21](https://twitter.com/MikeDuke21)
 - LinkedIn: [MICHAEL MESFIN](https://linkedin.com/in/https://www.linkedin.com/in/michael-21-duke/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 
 ## 🤝 Contributing
 
@@ -65,10 +46,18 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](microverse.org)
+- Code Reviewers
+- Inspiration: 
+  - [Vitor Guedes Madeira](https://github.com/Vitor-Guedes-Madeira)
+  - [Virag Kormoczy](https://github.com/virag-ky) 
+  - [Mavericks Balitaan](https://github.com/mavericks-db)
 
+Under the the [Creative Commons liscense](https://creativecommons.org/licenses/by-nc/4.0/)
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/84629565/181086933-d5bcdb09-da51-40f6-b0f8-a1f191614257.png">
+
+Original design from [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
