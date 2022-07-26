@@ -9,6 +9,10 @@ header {
   text-align: center;
 }
 
+.title:hover {
+  background-image: url('../images/Background/seamless-pattern-of-african-elements-vector.jpg');
+}
+
 .intro {
   background-color: var(--color-white);
   border: 2px solid var(--color-lightgrey);
@@ -82,7 +86,7 @@ section p {
 .past-event-section {
   border-top: 1.4px solid var(--color-lightgrey);
   background-color: var(--color-white);
-  padding: 2rem 0;
+  padding: 2rem 5%;
 }
 
 .past-event-sectio .sec-title {
@@ -93,9 +97,77 @@ section p {
   max-width: none;
 }
 
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.past-events li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 35vw;
+  box-shadow: inset -100vw -100vh #ec534280;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: box-shadow 0.45s, transform 0.45s;
+}
+
+.past-events li:first-child {
+  background-image: url('../images/Past-events/about_2020.webp');
+}
+
+.past-events li:last-child {
+  background-image: url('../images/Past-events/about_2021.jpg');
+  background-size: cover;
+}
+
+.past-events li:hover {
+  box-shadow: unset;
+  transform: scale(1.025);
+}
+
+.past-events li h3 {
+  position: absolute;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--color-white);
+}
+
+.past-events li h3 span {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.partner-section .sec-title {
+  color: var(--color-lightgrey);
+}
+
+@media (max-width: 500px) {
+  .past-events li h3 {
+    font-size: 1.5rem;
+    color: var(--color-white);
+  }
+
+  .past-events li h3 span {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
 @media (min-width: 768px) {
   header > * {
     padding-left: unset;
+  }
+
+  .slogan {
+    display: none;
   }
 
   .logo-section {
@@ -108,12 +180,26 @@ section p {
     width: 29.375rem;
   }
 
+  .past-events {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .past-events li {
+    max-width: 38.5rem;
+    max-height: 21.875rem;
+  }
+
   .partner-section {
     display: none;
   }
 
   footer {
     background-color: var(--color-black);
+  }
+
+  .footer-logo img {
+    content: url("../images/AMC-logos/amc-logo-dark-removebg.png");
   }
 
   .footnote {
