@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # AFRICA MUSIC CONFERENCE 2022
-![amc logo](https://user-images.githubusercontent.com/84629565/181085402-9e66ad51-4b01-4161-abb2-76a80f30ff34.jpg)
+![AMC 2022 logo](https://user-images.githubusercontent.com/84629565/181085402-9e66ad51-4b01-4161-abb2-76a80f30ff34.jpg)
 
 > This is an educational project to make a website for a music conference event with home page and about page.
 
@@ -14,6 +14,10 @@
   - Lighthouse
   - Webhint
   - ESLint
+
+## Project Documentation
+
+- Here is the [link](https://drive.google.com/file/d/1pRpCYgXXrgL7nfmFDzdW5SDUlSlpfbeL/view?usp=sharing) to my Zoom video
 ## Website Mockup 📱 💻 🖥️
 ![screenshot](https://user-images.githubusercontent.com/84629565/181092628-62d25799-72cd-47e0-b740-6605cfcd7252.jpg)
 ![screenshot](https://user-images.githubusercontent.com/84629565/181093286-7a6d1418-893d-49aa-a809-9893881eb170.jpg)
