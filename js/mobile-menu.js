@@ -10,10 +10,12 @@ const toggleMenu = (e) => {
 const closeMenu = () => {
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.classList.remove('active');
+  menuBtn.classList.remove('open');
   setTimeout(() => {
     mobileMenu.remove();
-  }, 700);
-  menuBtn.classList.remove('open');
+    const prevHomeLi = document.getElementById('homepage-link');
+    if (prevHomeLi) prevHomeLi.remove();
+  }, 200);
   document.body.style.overflow = 'auto';
 };
 
@@ -26,6 +28,7 @@ function renderMobileMenu() {
   const navLinks = document.querySelector('.nav-bar').cloneNode(true);
   // Appending HomeLink
   const homeLi = document.createElement('li');
+  homeLi.id = 'homepage-link';
   const homeLink = document.createElement('a');
   homeLink.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="48px" height="48px">
   <g id="surface140677373">
@@ -41,6 +44,7 @@ function renderMobileMenu() {
 
   const links = navLinks.querySelectorAll('li');
   links.forEach((link) => {
+    link.querySelector('a').classList.remove('active-link');
     link.onclick = closeMenu;
   });
   mobileMenu.appendChild(navLinks);
