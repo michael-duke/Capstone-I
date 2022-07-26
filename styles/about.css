@@ -10,7 +10,7 @@ header {
 }
 
 .title:hover {
-  background-image: url('../images/seamless-pattern-of-african-elements-vector.jpg');
+  background-image: url('../images/Background/seamless-pattern-of-african-elements-vector.jpg');
 }
 
 .intro {
@@ -120,11 +120,11 @@ section p {
 }
 
 .past-events li:first-child {
-  background-image: url('../images/about_2020.webp');
+  background-image: url('../images/Past-events/about_2020.webp');
 }
 
 .past-events li:last-child {
-  background-image: url('../images/about_2021.jpg');
+  background-image: url('../images/Past-events/about_2021.jpg');
   background-size: cover;
 }
 
@@ -199,7 +199,7 @@ section p {
   }
 
   .footer-logo img {
-    content: url("../images/amc-logo-dark-removebg.png");
+    content: url("../images/AMC-logos/amc-logo-dark-removebg.png");
   }
 
   .footnote {
