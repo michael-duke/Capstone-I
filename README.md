@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # AFRICA MUSIC CONFERENCE 2022
-![amc logo](https://user-images.githubusercontent.com/84629565/181085402-9e66ad51-4b01-4161-abb2-76a80f30ff34.jpg)
+![AMC 2022 logo](https://user-images.githubusercontent.com/84629565/181085402-9e66ad51-4b01-4161-abb2-76a80f30ff34.jpg)
 
 > This is an educational project to make a website for a music conference event with home page and about page.
 
