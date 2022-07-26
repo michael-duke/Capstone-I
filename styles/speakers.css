@@ -28,8 +28,6 @@
 
 .speaker-profile-container {
   position: relative;
-
-  /* background-image: url('../images/grey-square-pattern-speaker-background.webp'); */
   background-repeat: no-repeat;
   background-size: 55%;
   width: 115px;
@@ -40,8 +38,6 @@
   position: absolute;
   right: 0;
   bottom: 0;
-
-  /* background-image: url('../images/speaker-1.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
